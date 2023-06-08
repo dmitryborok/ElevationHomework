@@ -1,0 +1,37 @@
+#parent {
+  position: relative;
+  margin: auto;
+  width: 50%;
+}
+
+#image {
+  width: 100%;
+}
+
+.text {
+  position:absolute;
+  margin: 10px;
+}
+
+#top-left {
+  left: 0;
+  top: 0;
+}
+
+#top-right {
+  right: 0;
+  top: 0;
+
+}
+
+#bottom-left  {
+  left: 0;
+  bottom: 0;
+
+}
+
+#bottom-right  {
+  right: 0;
+  bottom: 0;
+
+}

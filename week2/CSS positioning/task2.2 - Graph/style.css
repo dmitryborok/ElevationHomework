@@ -1,0 +1,88 @@
+#parent {
+  background-color: rgb(87, 87, 215);
+  width: 300px;
+  height: 100px;
+  position:absolute;
+  padding: 5px;
+}
+
+.legend {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 5px;
+}
+
+
+#money {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+}
+
+#time {
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+}
+
+.bar {
+  background-color: lightgrey;
+  width: 20px;
+  position: absolute;
+  bottom: 0px;
+  margin: 5px;
+}
+
+#bar1 {
+  left: 0px;
+  height: 20px;
+}
+
+#bar2 {
+  left: 40px;
+  height: 40px;
+}
+
+#bar3 {
+  left: 80px;
+  height: 60px;
+}
+
+#bar4 {
+  left: 120px;
+  height: 55px;
+}
+
+#bar5 {
+  left: 160px;
+  height: 45px;
+}
+
+#bar6 {
+  left: 200px;
+  height: 30px;
+}
+
+/* input {
+  color: lightgrey;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+
+#first {
+  background-color: lightseagreen;
+}
+
+#second {
+  background-color: orange;
+}
+
+.button {
+  background-color: lightgreen;
+} */

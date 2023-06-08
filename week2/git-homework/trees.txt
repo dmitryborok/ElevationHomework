@@ -1,0 +1,7 @@
+1 oak
+2 pine
+3 birch
+4 fir-tree
+5 ginkgo
+6 ash-tree
+7 maple

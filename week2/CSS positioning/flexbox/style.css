@@ -1,0 +1,53 @@
+div {
+  border: solid 5px black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.parent {
+  background-color: lightblue;
+  width: 500px;
+  display: flex;
+  flex-direction:column;
+  align-content:stretch;
+  justify-content:stretch;
+}
+
+.main {
+  border-left: 0px;
+  border-right: 0px;
+  background-color: purple;
+  display: flex;
+  justify-content:stretch;
+  flex-direction:row;
+}
+
+.header {
+  border-bottom: 0px;
+}
+
+.footer {
+  border-top: 0px;
+}
+
+.menu {
+  min-width: 80px;
+  border-right: 0px;
+}
+
+.ad {
+  min-width: 80px;
+  border-left: 0px;
+}
+
+.text {
+  background-color: lightcoral;
+  min-width: 50px;
+}

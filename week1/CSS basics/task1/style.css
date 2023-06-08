@@ -1,0 +1,11 @@
+body {
+  background-color: #ddd;
+}
+
+nav  {
+  background-color: rgb(51, 51, 51);
+}
+
+li:nth-child(2) {
+  background-color: green;
+}

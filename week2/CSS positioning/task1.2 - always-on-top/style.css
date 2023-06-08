@@ -1,0 +1,29 @@
+#parent {
+  position:absolute;
+}
+
+#menu{
+  position: sticky;
+  top: 0;
+  right:0;
+  background-color: lightgray;
+  top: 0;
+  left:0;
+  right: 0;
+}
+
+
+.menu-item {
+  padding-left: 20px; 
+  padding-right: 20px; 
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3em;
+  display: inline-block;
+}
+
+.text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+  word-wrap: normal;
+  position: static;
+}

@@ -1,0 +1,72 @@
+#parent {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  /* display: inline-block; */
+  position:absolute;
+}
+
+#child1 {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+#child2 {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right:0;
+}
+
+#child3 {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom:0;
+}
+
+#child4 {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+
+#child5 {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left:33.3%;
+  top:33.3%;
+}
+
+/* input {
+  color: lightgrey;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+
+#first {
+  background-color: lightseagreen;
+}
+
+#second {
+  background-color: orange;
+}
+
+.button {
+  background-color: lightgreen;
+} */

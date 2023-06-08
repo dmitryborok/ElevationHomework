@@ -1,0 +1,13 @@
+#parent {
+  border: solid 5px black;
+  height: 300px;
+  /* display: inline-block; */
+}
+
+#child1 {
+  background-color: lightgrey;
+  width: 100px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
