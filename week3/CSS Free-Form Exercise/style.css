@@ -1,0 +1,215 @@
+#main-container{
+  display: grid;
+  height: 50vh;
+  grid-template-columns: minmax(0, 1fr) 3fr minmax(0, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "ch b g";
+}
+
+#adversary-container {
+  display: grid;
+  grid-area: a;
+  background-color: #4cd137; /* download progress */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#chessboard-and-players-container {
+  display: grid;
+  grid-area: b;
+  grid-template-rows: 2fr minmax(9fr, 9fr) 2fr;
+  grid-template-areas: "a""b1""I";
+}
+
+#chessboard-container {
+  display: grid;
+  background-color: #487eb0;
+  aspect-ratio: 1 / 1;
+  grid-area: b1;
+  grid-template-rows: 1fr 8fr;
+  grid-template-columns: 1fr 8fr;
+  grid-template-areas: ". letters""digits cells";
+}
+
+
+#letters-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-area: letters;
+}
+
+#digits-container {
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-area: digits;
+}
+
+#cells-container {
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+  grid-area: cells;
+  border: ridge 5px black;
+}
+
+.letter {
+  aspect-ratio: 1 / 1;
+  align-self: end;
+  justify-self: center;
+  font-size: 2em;
+}
+
+.digit {
+  aspect-ratio: 1 / 1;
+  align-self: center;
+  justify-self: right;
+  font-size: 2em;
+}
+
+.black-cell {
+  aspect-ratio: 1 / 1;
+  display: grid;
+  background-color: #4cd137; /* download progress */
+}
+
+.white-cell {
+  aspect-ratio: 1 / 1;
+  display: grid;
+  background-color: #dcdde1 /* hint of pensive */
+}
+
+#moves-container {
+  grid-area: g;
+  background-color: #7f8fa6; /* blueberry soda */
+  /* padding: 10px; */
+}
+
+.move-item {
+  display: grid;
+  grid-template-columns: 1fr 4fr 4fr;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#me-container {
+  padding: 10px;
+  display: grid;
+  grid-area: I;
+  background-color: #dcdde1; /* hint of pensive */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact-list-container {
+  display: grid;
+  grid-area: ch;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-gap: 10px;
+  grid-template-rows: repeat(10, 1fr);
+  align-items: start;
+
+  background-color: #9c88ff; /* periwinkle */
+}
+
+.contacts-header {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.contact-item {
+  display: grid;
+  padding: 10px;
+  font-weight: normal;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-content: start;
+}
+
+/* #chat-container{
+  display: grid;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: grid;
+  grid-gap: 10px;
+  grid-area: c;
+  background-color: lightgrey;
+  grid-template-rows: repeat(10, 1fr);
+  align-items: end;
+}
+
+.chat-item {
+  display: grid;
+  width: 33%;
+  grid-template-columns: 4fr 1fr;
+  align-self: stretch;
+  border-radius: 4px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
+.visavis {
+  display: grid;
+  justify-self: left;
+  background-color: grey;
+}
+
+.me {
+  display: grid;
+  justify-self: right;
+  background-color: chartreuse;
+}
+
+.chat-item-text {
+  display: grid;
+  justify-content: start;
+  align-content: center;
+  font-size: 1em;
+}
+
+.chat-item-time {
+  display: grid;
+  justify-content: end;
+  align-content: end;
+  font-size: 0.5em;
+}
+
+#contact-list-container {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: grid;
+  grid-area: t;
+  background-color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-gap: 10px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  align-items: start;
+}
+
+.contacts-header {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.contact-item {
+  padding: 10px;
+  font-weight: normal;
+  background-color: magenta;
+  align-content: center;
+  justify-content: start;
+}
+
+#send-container {
+  display: grid;
+  grid-area: s;
+  grid-template-columns: 5fr 1fr;
+}
+
+.send-btn {
+  display: grid;
+  background-color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
+  justify-content: center;
+  font-size: 1em;
+  color: whitesmoke;
+} */
+
+
