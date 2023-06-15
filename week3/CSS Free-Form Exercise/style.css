@@ -1,8 +1,10 @@
+
 #main-container{
   display: grid;
-  height: 50vh;
+  height: 100%;
+  width: fit-content;
   grid-template-columns: minmax(0, 1fr) 3fr minmax(0, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-rows: auto;
   grid-template-areas: "ch b g";
 }
 
@@ -16,7 +18,8 @@
 #chessboard-and-players-container {
   display: grid;
   grid-area: b;
-  grid-template-rows: 2fr minmax(9fr, 9fr) 2fr;
+  grid-template-rows: minmax(1fr, 2fr) 9fr minmax(1fr, 2fr);
+  grid-template-columns: auto;
   grid-template-areas: "a""b1""I";
 }
 
@@ -80,7 +83,7 @@
 #moves-container {
   grid-area: g;
   background-color: #7f8fa6; /* blueberry soda */
-  /* padding: 10px; */
+  padding: 10px;
 }
 
 .move-item {
