@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form validation</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+        <div id="name-container" class="input-container">
+          <div class="label">Name</div> 
+          <input id="name" type="text"></input> 
+        </div> 
+        <div id="salary-birthday-container">
+            <div id="salary-container" class="input-container">
+              <div class="label">Desired Salary</div> 
+              <input id="salary" type="number"></input> 
+            </div> 
+            <div id="birthday-container" class="input-container">
+              <div class="label">Birthday</div> 
+              <input id="birthday" type="date"></input> 
+            </div> 
+        </div> 
+        <div id="phone-container" class="input-container">
+          <div class="label">Phone</div> 
+          <input id="phone" type="text"></input> 
+        </div> 
+        <div id="error-button-container" class="input-container">
+          <div id="error"></div> 
+          <button onclick="validate()">Submit</div> 
+        </div>
+      </div>
+      <script src="main.js"></script>
+    </body>
+</html>
